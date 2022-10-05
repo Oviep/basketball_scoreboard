@@ -32,3 +32,10 @@ function set_score6() {
   score_guest += 3;
   scores2.textContent = score_guest;
 }
+
+function reset_scores() {
+     score_home = 0;
+     score_guest = 0;
+     scores1.textContent = score_home;
+     scores2.textContent = score_guest;
+}

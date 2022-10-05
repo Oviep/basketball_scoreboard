@@ -10,22 +10,27 @@
                 <h1>HOME</h1>
                 <div id="score_box1">0</div>
                 <div class="btn_container">
-                    <button onclick="set_score1()">+1</button>
-                    <button onclick="set_score2()">+2</button>
-                    <button onclick="set_score3()">+3</button>
+                    <button class="style_btn" onclick="set_score1()">+1</button>
+                    <button class="style_btn"  onclick="set_score2()">+2</button>
+                    <button class="style_btn"  onclick="set_score3()">+3</button>
                 </div>
             </div>
-
+              
             <div class="guest">
                <h1>GUEST</h1>
                <div id="score_box2">0</div> 
                <div class="btn_container">
-                    <button onclick="set_score4()">+1</button>
-                    <button onclick="set_score5()">+2</button>
-                    <button onclick="set_score6()">+3</button>
+                    <button class="style_btn"  onclick="set_score4()">+1</button>
+                    <button class="style_btn"  onclick="set_score5()">+2</button>
+                    <button class="style_btn"  onclick="set_score6()">+3</button>
                 </div>
+                
             </div>
+           
         </div>
+         <div class="reset_btn">
+            <button class="reset_style" onclick="reset_scores()">RESET</button>
+        </div> 
 
         <script src="index.js"></script>
     </body>
